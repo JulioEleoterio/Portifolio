@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Julio Cesar</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<!-- Cabeçalho com Navbar -->
+    <header class="navbar">
+        <div class="logo">Julio Cesar Eleoterio dos Santos</div>
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Botão de alternância de tema -->
+        <button id="theme-toggle" class="btn-theme"> Tema</button>
+    </header>
+<br>
+<!-- Seção Sobre Mim -->
+    <section id="sobre" class="section">
+        
+        <h2>Sobre Mim</h2>
+        
+        <!-- Os parágrafos de texto ficam dentro de tags <p> -->
+        <p>Olá! Meu nome é Júlio Cesar e sou estudante de Análise e Desenvolvimento de Sistemas (ADS), apaixonado por tecnologia, inovação e aprendizado contínuo. Estou sempre buscando desenvolver novas habilidades e transformar conhecimento em soluções práticas. Tenho interesse em áreas como desenvolvimento de software, banco de dados, modelagem de sistemas e automação.</p>
+        
+        <p>Além da tecnologia, sou apaixonado por jogos online, que fazem parte do meu dia a dia como forma de entretenimento e também de desenvolvimento de habilidades como raciocínio lógico, trabalho em equipe, tomada de decisões e resolução de problemas.</p>
+        
+        <p>Sou uma pessoa dedicada, organizada e persistente. Acredito que o aprendizado contínuo, aliado à disciplina e à inovação, é essencial para alcançar resultados e construir uma carreira sólida. Meu objetivo é crescer como profissional de tecnologia, participar de projetos que gerem impacto positivo e contribuir com soluções que facilitem a vida das pessoas e das empresas.</p>
+        
+        <p>"A tecnologia transforma o mundo, mas são as pessoas que transformam a tecnologia em oportunidades."</p>
+    </section>
+<br><br>
+<!-- Seção de Formação -->
+        <section id="formacao" class="section">
+            <h2>Formação</h2>
+            
+            <p>Atualmente, estou cursando Análise e Desenvolvimento de Sistemas (ADS) na Uninter, onde adquiri conhecimentos em programação, banco de dados, modelagem de sistemas e desenvolvimento web. Além disso, busco constantemente cursos e certificações para aprimorar minhas habilidades e me manter atualizado com as tendências do mercado.</p>
+       
+            <p>Durante minha formação, participei de projetos acadêmicos que me permitiram aplicar os conhecimentos adquiridos em situações práticas, desenvolvendo soluções para problemas reais. Essa experiência me proporcionou uma visão mais ampla do mercado de tecnologia e me motivou a buscar oportunidades de crescimento profissional.</p>
+
+            <p>Além disso, acumulo mais de 10 anos de experiência como profissional autônomo no ramo de tecnologia, atuando na manutenção de computadores, configuração de equipamentos, instalação de sistemas, redes, suporte técnico e consultoria em tecnologia da informação. Essa trajetória me permitiu desenvolver competências como resolução de problemas, autonomia, organização, relacionamento com clientes e adaptação às constantes mudanças do setor.</p>
+
+            <p>Busco constantemente aprimorar meus conhecimentos para crescer profissionalmente e contribuir com soluções inovadoras, aliando minha experiência prática à formação acadêmica na área de tecnologia.</p>
+
+        </section>
+<br><br>
+<!-- Seção de Portfólio -->
+        <section id="portfolio" class="section">
+            <h2>Portfólio</h2>
+             <p>
+        Projeto 1 -
+        <a href="https://github.com/Juliio1337/Portifolio" target="_blank">
+            Este portifólio no Github
+        </a>
+    </p>
+
+    <p>
+        Projeto 2 -
+        <a href="https://meusite.com" target="_blank">
+            Acessar Site
+        </a>
+    </p>
+            </section>
+ <br><br><br><br>
+
+ <!-- Seção de Contato -->
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo preenchendo o formulário abaixo:</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                    <span class="error-msg" id="error-nome"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email">
+                    <span class="error-msg" id="error-email"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                    <span class="error-msg" id="error-mensagem"></span>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por Julio Cesar Eleoterio dos Santos</p>
+    </footer>
+<!-- Incluindo o arquivo JavaScript -->
+    <script src="js.js"></script>
+</body>
+</html>
